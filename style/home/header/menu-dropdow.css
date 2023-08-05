@@ -1,0 +1,131 @@
+header {
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  background-color: #ededed;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 0px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2000;
+}
+.logo img {
+  width: 148px;
+  height: 124px;
+}
+header .navbar ul {
+  list-style: none;
+}
+header .navbar ul li {
+  position: relative;
+  float: left;
+  align-items: center;
+  border-radius: 10px;
+}
+
+header .navbar ul li a {
+  padding-top: 5px;
+  font-size: 18px;
+  padding: 10px 20px;
+  display: block;
+  color: #1b3954;
+}
+header .navbar ul li a:hover {
+  background-color: var(--cor-P10);
+  color: #fff;
+  border-radius: 10px;
+}
+header .navbar ul li ul {
+  margin-top: 2px;
+  position: absolute;
+  left: 0;
+  width: 290px;
+  background-color: #fff;
+  display: none;
+  border-radius: 10px;
+}
+header .navbar ul li ul li {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+header .navbar ul li ul li ul {
+  left: 200px;
+  top: 0;
+}
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+  display: initial;
+}
+#menu-bar {
+  display: none;
+}
+header label {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  display: none;
+}
+header .navbar ul li ul li {
+  max-width: 100%;
+}
+header span {
+  font-size: 10px;
+  align-items: center;
+}
+
+/* break points */
+
+@media (max-width: 850px) {
+  header {
+    padding: 20px;
+  }
+  header label {
+    display: initial;
+  }
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  header .navbar ul li {
+    width: 100%;
+  }
+  header .navbar ul li ul {
+    position: relative;
+    width: 100%;
+  }
+  header .navbar ul li ul li {
+    background-color: #eee;
+  }
+  header .navbar ul li ul li ul {
+    width: 100%;
+    left: 0;
+  }
+  #menu-bar:checked ~ .navbar {
+    display: initial;
+  }
+}
+label img {
+  width: 48px;
+}
+@media (max-width: 600px) {
+    header {
+      width: 100vw;
+    } 
+  
+  .logo img {
+    width: 84px;
+  }
+ label img {
+    width: 32px;
+  }
+}

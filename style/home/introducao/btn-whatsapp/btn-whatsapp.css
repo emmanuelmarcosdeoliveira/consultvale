@@ -1,0 +1,32 @@
+.btn-whatsapp {
+  display: flex;
+  justify-content: flex-end;
+<<<<<<< HEAD
+  width: 360px;
+=======
+>>>>>>> d43845b4c0d37fa99d4f9b9bccb8b6f77341f4b1
+}
+.btn-whatsapp a {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+}
+.btn-whatsapp a img {
+  width: 72px;
+}
+@media (max-width: 600px) {
+  .btn-whatsapp a img {
+    width: 48px;
+  }
+  .btn-whatsapp a {
+    position: fixed;
+<<<<<<< HEAD
+    bottom: 100px;
+    right: 15px;
+=======
+    bottom: 10px;
+    right: 10px;
+>>>>>>> d43845b4c0d37fa99d4f9b9bccb8b6f77341f4b1
+    z-index: 3000;
+  }
+}

@@ -1,0 +1,73 @@
+.beneficio-bg {
+  background-color: var(--cor-02);
+  }
+.beneficio{
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  gap: 2%;
+}
+.beneficios h2 {
+   padding-top: 120px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-style: italic;
+}
+.beneficios h3 {
+  border-top: 4px solid var(--cor-D01);
+  text-align: center;
+  display: block;
+  padding-top: 20px;
+  height: 100px;
+}
+.beneficios p {
+  padding: 0px 20px;
+  margin-top: 40px;
+  height: 400px;
+}
+.beneficios img {
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 120px;
+}
+
+@media (max-width: 600px) {
+  
+  .beneficio {
+    width: 360px;
+    margin-top: 60px;
+     }
+  .beneficio-produto {
+    width: 360px;
+  }
+  .beneficio{
+    width: 360px;
+    grid-template-columns: 1fr;
+    padding-bottom: 60px;
+   
+  }
+  .beneficios h2 {
+    width: 360px;
+    padding-top: 60px;
+    font-size: 18px;
+  }
+  .beneficios h3 {
+    width: 350px;
+    }
+  .beneficios p {
+    width: 360px;
+    height: 150px;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .beneficios img {
+    width: 340px;
+    height: 180px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px; 
+  }
+  .beneficio-item {
+    width: 360px;
+  }
+  
+}

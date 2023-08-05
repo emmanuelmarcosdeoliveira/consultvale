@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+<<<<<<< HEAD
+  list-style: none;
+}
+body {
+  background-color: #f8f8f8;
+=======
+}
+body {
+    background-color: #f8f8f8;
+>>>>>>> d43845b4c0d37fa99d4f9b9bccb8b6f77341f4b1
+}
+.container {
+  width: 1216px;
+  margin: 0 auto;
+}
+<<<<<<< HEAD
+@media (max-width: 600px) {
+  .container {
+    width: 360px;
+  }
+}
+=======
+>>>>>>> d43845b4c0d37fa99d4f9b9bccb8b6f77341f4b1

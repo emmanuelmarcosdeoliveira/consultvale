@@ -1,0 +1,128 @@
+<<<<<<< HEAD
+.produtos-itens {
+  margin-bottom: 120px;
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  gap: 2%;
+=======
+.produtos {
+  margin-bottom: 120px;
+>>>>>>> d43845b4c0d37fa99d4f9b9bccb8b6f77341f4b1
+}
+.produtos img {
+  width: 360px;
+  height: 253px;
+  border-radius: 10px 10px 0px 0px;
+}
+.produto-servico {
+  width: 360px;
+  height: 750px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 4px 4px var(--cor-00);
+}
+<<<<<<< HEAD
+=======
+
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  gap: 2%;
+}
+>>>>>>> d43845b4c0d37fa99d4f9b9bccb8b6f77341f4b1
+.produto-servico h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+.produto-servico h3 {
+  text-align: center;
+}
+.produto-servico p {
+  margin: 0px 35px 0px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  height: 250px;
+}
+.produto-servico a {
+  margin: 0 auto;
+}
+<<<<<<< HEAD
+@media (max-width: 600px) {
+  .produtos-itens  {
+=======
+
+@media (max-width: 600px) {
+  .produtos {
+>>>>>>> d43845b4c0d37fa99d4f9b9bccb8b6f77341f4b1
+    width: 360px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2%;
+<<<<<<< HEAD
+    margin-bottom: 10px;
+    }
+=======
+    margin-bottom: 20px;
+    
+
+    
+  }
+>>>>>>> d43845b4c0d37fa99d4f9b9bccb8b6f77341f4b1
+  .produtos img {
+    width: 300px;
+    height: 220px;
+    border-radius: 10px 10px 0px 0px;
+<<<<<<< HEAD
+    margin-bottom: 20px;
+  }
+  .produto-servico {
+    width: 300px;
+    height: 680px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 4px 4px var(--cor-00);
+   margin-left: 30px;
+   margin-right: 25px;
+   margin-bottom: 5px;
+  }
+   .produto-servico p {
+    font-size: 14px;
+    margin: 0px 20px;
+    margin-top: 20px;
+    height: 230px;
+  }
+  .produtos {
+    margin-bottom: 40px;
+  }
+  .produtos-itens {
+    margin-bottom: 0px;
+    gap: 10px;
+  }
+  .produto-servico h2 {
+    margin-top: 10px;
+      }
+      .produtos img {
+        width: 300px;
+        height: 220px;
+        border-radius: 10px 10px 0px 0px;
+        margin-bottom: 10px;
+      }
+=======
+  }
+  .produto-servico {
+    width: 300px;
+    height: 650px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 4px 4px var(--cor-00);
+   margin-left: 25px;
+   margin-right: 25px;
+  }
+   .produto-servico p {
+    font-size: 14px;
+    margin: 0px 35px 0px;
+    margin-top: 20px;
+    height: 230px;
+  }
+>>>>>>> d43845b4c0d37fa99d4f9b9bccb8b6f77341f4b1
+}

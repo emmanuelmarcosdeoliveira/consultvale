@@ -1,0 +1,41 @@
+/* Utilitários */
+@import "./global/global.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+@import "utilidades/botao.css";
+
+/* Página home*/
+
+/* Header */
+@import "./home/header/menu-dropdow.css";
+<<<<<<< HEAD
+/* seção Introdução */
+@import "./home/introducao/intro/intro.css";
+@import "./home/introducao/btn-whatsapp/btn-whatsapp.css";
+/*Empresa*/ 
+@import "./home/empresa/empresa.css";
+/* Serviços */
+@import "./home/serviços/servicos.css";
+/* Produtos  */
+@import "./home/produtos/produtos.css";
+/* Beneficíos */
+@import "home/beneficios/beneficios.css";
+/* Chamada */
+@import "home/chamada/chamada.css";
+/* Clientes */
+@import "./home/clientes/clientes.css";
+=======
+
+/* seção Introdução */
+@import "./home/introducao/intro/intro.css";
+@import "./home/introducao/btn-whatsapp/btn-whatsapp.css";
+
+/*Empresa*/ 
+@import "./home/empresa/empresa.css";
+
+/* Serviços */
+@import "./home/serviços/servicos.css";
+
+/* Produtos  */
+@import "./home/produtos/produtos.css";
+>>>>>>> d43845b4c0d37fa99d4f9b9bccb8b6f77341f4b1
