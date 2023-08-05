@@ -1,0 +1,123 @@
+.depoimentos {
+  margin-bottom: 120px;
+}
+.depoimentos h2 {
+  text-align: center;
+  margin-top: 120px;
+  position: relative;
+}
+.depoimentos h2::before {
+  content: " ";
+  width: 350px;
+  height: 2px;
+  position: absolute;
+  bottom: 10px;
+  left: 820px;
+  background-color: var(--cor-D01);
+}
+.depoimentos h2::after {
+  content: " ";
+  width: 350px;
+  height: 2px;
+  position: absolute;
+  bottom: 10px;
+  right: 820px;
+  background-color: var(--cor-D01);
+}
+.depoimento-sobre {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.depoimento-sobre h3 {
+  font-style: italic;
+  align-items: center;
+  text-align: center;
+  width: 1000px;
+  margin-bottom: 80px;
+}
+.depoimento-item {
+  display: flex;
+  background-color: var(--cor-01);
+  width: 370px;
+
+  padding: 10px;
+  border-radius: 10px;
+}
+.depoimento-imagem-nome {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.depoimento-imagem-nome img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+.depoimento-descricao {
+  width: 420px;
+}
+.depoimento-descricao p {
+  font-size: 12px;
+}
+.depoimento-grid {
+  margin: 0 auto;
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(3, 32%);
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .depoimentos h2 {
+    width: 360px;
+    font-size: 26px;
+    margin: 60px 0px;
+  }
+  .depoimentos h2::before {
+    content: " ";
+    width: 80px;
+    height: 2px;
+    position: absolute;
+    bottom: 2px;
+    left: 270px;
+    background-color: var(--cor-D01);
+  }
+  .depoimentos h2::after {
+    content: " ";
+    width: 80px;
+    height: 2px;
+    position: absolute;
+    bottom: 2px;
+    right: 270px;
+    background-color: var(--cor-D01);
+  }
+  .depoimento-sobre {
+    width: 350px;
+    margin-top: 40px;
+  }
+  .depoimento-sobre h3 {
+    width: 300px;
+    font-size: 18px;
+  }
+  .depoimento-grid {
+    grid-template-columns: 1fr;
+    gap: 1%;
+    margin: 10px;
+  }
+  .depoimento-item {
+    width: 340px;
+    flex-direction: column;
+  }
+  .depoimento-descricao {
+    margin: 10px auto;
+    width: 340px;
+  }
+  .depoimento-descricao p {
+    width: 320px;
+    padding: 10px;
+    margin: 0px;
+  }
+  .depoimento-imagem-nome {
+    padding: 5px 10px;
+  }
+}

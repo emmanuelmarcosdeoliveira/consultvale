@@ -24,3 +24,5 @@
 @import "home/chamada/chamada.css";
 /* Clientes */
 @import "./home/clientes/clientes.css";
+/* Depoimentos */
+@import "home/depoimentos/depoimentos.css";

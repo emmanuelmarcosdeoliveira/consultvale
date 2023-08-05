@@ -69,7 +69,7 @@
     width: 100px;
   }
   .clientes h2 {
-    font-size: 16px;
+    font-size: 26px;
   }
   .clientes-lista ul {
     grid-template-columns: 1fr 1fr;
@@ -85,7 +85,7 @@
   }
   .clientes h2::before {
     content: " ";
-    width: 120px;
+    width: 100px;
     height: 2px;
     position: absolute;
     bottom: 5px;
@@ -94,7 +94,7 @@
   }
   .clientes h2::after {
     content: " ";
-    width: 120px;
+    width: 100px;
     height: 2px;
     position: absolute;
     bottom: 5px;
