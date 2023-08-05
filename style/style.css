@@ -26,3 +26,5 @@
 @import "./home/clientes/clientes.css";
 /* Depoimentos */
 @import "home/depoimentos/depoimentos.css";
+/* Footer  */ 
+@import "home/footer/footer.css";

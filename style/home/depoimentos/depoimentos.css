@@ -58,6 +58,7 @@
 }
 .depoimento-descricao p {
   font-size: 12px;
+  font-style: italic;
 }
 .depoimento-grid {
   margin: 0 auto;
