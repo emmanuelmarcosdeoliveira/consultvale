@@ -7,7 +7,6 @@
   line-height: 36px;
   width: 250px;
   height: 70px;
-<<<<<<< HEAD
   border-radius: 10px;
   text-align: center;
   background: var(--bt-2, linear-gradient(180deg, #1b3954 0%, #466c86 100%));
@@ -49,16 +48,3 @@
     background-color: var(--cor-D01);
   }
 }
-=======
-    border-radius: 10px;
-  text-align: center;
-  background: var(--bt-2, linear-gradient(180deg, #1B3954 0%, #466C86 100%));
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-color: #fff;
-padding: 20px 40px;
-}
-
-.botao:hover {
-  background: var(--bt-2, linear-gradient(180deg, #497397 0%, #161b1f 100%));
-}
->>>>>>> d43845b4c0d37fa99d4f9b9bccb8b6f77341f4b1

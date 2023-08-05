@@ -20,31 +20,19 @@
   font: 600 2rem/1.2 "Poppins", sans-serif;
 }
 .font-pop-cap {
-<<<<<<< HEAD
   font: 600 2rem/1.2 "Poppins", sans-serif;
-=======
-  font: 600 3rem/1.2 "Poppins", sans-serif;
->>>>>>> d43845b4c0d37fa99d4f9b9bccb8b6f77341f4b1
 }
 .font-pop-dest {
   font: 400 1.5rem/1.5 "Poppins", sans-serif;
 }
 .font-pop-sub {
-<<<<<<< HEAD
   font: 600 2.125rem/1.2 "Poppins", sans-serif;
-=======
-  font: 600 2rem/1.2 "Poppins", sans-serif;
->>>>>>> d43845b4c0d37fa99d4f9b9bccb8b6f77341f4b1
 }
 .font-pop-ser {
   font: 600 1.6rem/1.2 "Poppins", sans-serif;
 }
 .font-pop-desc {
-<<<<<<< HEAD
   font: 400 1.3rem/1.2 "Poppins", sans-serif;
-=======
-  font: 400 1.6rem/1.2 "Poppins", sans-serif;
->>>>>>> d43845b4c0d37fa99d4f9b9bccb8b6f77341f4b1
 }
 .font-pop-g {
   font: 600 1rem/1.2 "Poppins", sans-serif;
@@ -55,7 +43,6 @@
 .font-pop-p {
   font: 400 0.8rem/1.2 "Poppins", sans-serif;
 }
-
 /* Fontes Roboto */
 .font-rob-m{
   font: 400 1.1rem/1.4 "Roboto", sans-serif;
