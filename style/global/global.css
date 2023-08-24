@@ -13,8 +13,12 @@ body {
   width: 1216px;
   margin: 0 auto;
 }
-@media (max-width: 600px) {
+@media (max-width: 450px) {
   .container {
-    width: 360px;
+    max-width: 370px;
+  }
+  body, html {
+    overflow-x: hidden;
+    margin: 0;
   }
 }
