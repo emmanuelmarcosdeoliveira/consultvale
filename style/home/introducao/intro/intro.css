@@ -31,9 +31,8 @@
 .meuvideo {
   right: 0;
   top: 0;
- width:100%;
- height:100%;
- 
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 600px) {
@@ -58,6 +57,9 @@
     margin: 0px;
   }
   .meuvideo {
-   display: none;
-    }
+    display: none;
+  }
+  .introducao img {
+    display: block!important;
+  }
 }
