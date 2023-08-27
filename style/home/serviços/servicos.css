@@ -1,3 +1,7 @@
+.servicos {
+  padding-top: 170px;
+}
+
 .servico-titulo {
   display: flex;
   align-items: center;
@@ -26,26 +30,27 @@
   .servicos {
     margin: 0 auto;
     width: 350px;
+    padding-top: 60px;
   }
   .servico-titulo {
     display: flex;
-    width: 350px;
+    width: 370px;
     height: 80px;
+   
   }
   .servicos h2 {
-    width: 360px;
-    font-size: 26px;
-    display: block;
+     font-size: 26px;
     text-align: center;
   }
   .servicos h3 {
-    padding-left: 170px;
+    padding-left: 0px;
     margin-top: -5px;
     font-size: 26px;
   }
   .servico-titulo img {
+    margin-left: 0px; 
     width: 84px;
-  }
+    }
   .servico-descricao {
     text-align: center;
   }

@@ -41,7 +41,7 @@ header .navbar ul li a:hover {
   border-radius: 10px;
 }
 header .navbar ul li ul {
-  margin-top: 2px;
+  margin-top: -5px;
   position: absolute;
   left: 0;
   width: 290px;

@@ -3,6 +3,8 @@
 @import "./utilidades/cores.css";
 @import "./utilidades/tipografia.css";
 @import "utilidades/botao.css";
+@import "./utilidades/animacao.css";
+@import "./utilidades/animate-on-scroll.css";
 
 /* Página home*/
 
@@ -12,7 +14,7 @@
 /* seção Introdução */
 @import "./home/introducao/intro/intro.css";
 @import "./home/introducao/btn-whatsapp/btn-whatsapp.css";
-/*Empresa*/ 
+/*Empresa*/
 @import "./home/empresa/empresa.css";
 /* Serviços */
 @import "./home/serviços/servicos.css";
@@ -26,9 +28,9 @@
 @import "./home/clientes/clientes.css";
 /* Depoimentos */
 @import "home/depoimentos/depoimentos.css";
-/* Footer  */ 
+/* Footer  */
 @import "home/footer/footer.css";
 
 /* production */
 @import "./product/product.css";
-@import "./product/perguntas.css"
+@import "./product/perguntas.css";

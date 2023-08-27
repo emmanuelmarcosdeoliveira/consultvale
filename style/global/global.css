@@ -5,7 +5,9 @@
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   list-style: none;
+  scroll-behavior: smooth;
 }
+
 body {
   background-color: #f8f8f8;
 }
@@ -13,12 +15,24 @@ body {
   width: 1216px;
   margin: 0 auto;
 }
+
+dd {
+  margin: 0px;
+}
+body,
+html {
+  overflow-x: hidden;
+  margin: 0;
+}
+
 @media (max-width: 450px) {
   .container {
     max-width: 370px;
   }
-  body, html {
-    overflow-x: hidden;
-    margin: 0;
-  }
+}
+/* html {
+  scroll-behavior: smooth;
+} */
+#textoescrevendo {
+  font-style: italic;
 }

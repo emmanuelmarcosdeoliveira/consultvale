@@ -1,0 +1,30 @@
+.animate {
+  opacity: 0;
+  transition: 1s;
+  filter: blur(1px);
+}
+
+.animate.from-top {
+  transform: translateY(-150%);
+}
+.animate.from-botton {
+  transform: translateY(50%);
+}
+.animate.from-botton1 {
+  transform: translateY(20%);
+}
+.animate.from-botton2 {
+  transform: translateY(10%);
+}
+.animate.from-left {
+  transform: translateX(-100%);
+}
+.animate.from-right {
+  transform: translateX(100%);
+}
+
+.animate.show {
+  transform: translate(0);
+  filter: blur(0);
+  opacity: 1;
+}

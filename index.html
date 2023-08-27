@@ -4,8 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Consult Vale Engenharia e  Regularizações- São José dos Campos - SP. Soluções para os mais diversos tipos de burocracias,e um otimo custo benefício">
   <title>Consult Vale</title>
-  <link rel="stylesheet" href="style/style.css">
+   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./style/style.css" as="style">
+  <link rel="stylesheet" href="./style/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Raleway:ital,wght@0,600;1,400&family=Roboto&display=swap" rel="stylesheet">
@@ -18,55 +21,60 @@
     <label for="menu-bar"><img src="source/icon/menu-bar/menu.svg" alt=""></label>
     <nav class="navbar">
       <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Empresa</a></li>
-        <li><a href="#">Serviços <span>&#9660;</span></a>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#empresa">Empresa</a></li>
+        <li><a href="#servicos">Serviços <span>&#9660;</span></a>
           <ul>
-            <li><a href="">AVCB/CLCB - Bombeiros</a></li>
-            <li><a href="">LTA - Vigilância Sanitária</a></li>
-            <li><a href="">Avaliações de Imoveis</a></li>
-            <li><a href="">Regularizações de Imoveis</a></li>
-            <li><a href="">Serviço 1</a></li>
-            <li><a href="">Serviço 2</a></li>
+            <li><a href="./avcb_clcb.html">AVCB/CLCB - Bombeiros</a></li>
+            <li><a href="./lta.html">LTA - Vigilância Sanitária</a></li>
+            <li><a href="./avaliacaoimoveis.html">Avaliações de Imoveis</a></li>
+            <li><a href="./regularizacaoimoveis.html">Regularizações de Imoveis</a></li>
+            <li><a href="./product5.html">Serviço 1</a></li>
+            <li><a href="./product6.html">Serviço 2</a></li>
           </ul>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#contato">Contato</a></li>
         </li>
       </ul>
     </nav>
   </header>
-  <section class="introducao">
+  <section class="introducao"  id="inicio">
+      
+    <video class="meuvideo" autoplay muted loop src="./source/video/Pexels-Rodnae-Productions-8293501 (1080P).mp4" width="2700"></video>
     <img src="source/img/introducao/introducao1.jpg" alt="Imagem de Engenheiro trabalhando">
-    <div class="intro">
+    <div class="intro" id="topo">
       <div class="intro-bem-vindo">
-        <p class="bem-vindo font-pop-g cor-01">Bem Vindos a Consult Vale</p>
-        <p class="descricao-site font-pop-xl cor-w">Engenharia e Regularizações</p>
-        <p class="descricao-servico font-ral-xl cor-03">Soluções para diversos tipos de burocracias com preciso conhecimento técnico, resultados satisfatórios e um ótimo custo beneficio</p>
+        <p data-anime="500" class="bem-vindo font-ral-xl cor-01 fadeInDown">CONSULT VALE</p>
+        <p data-anime="1500" class="descricao-site font-pop-xl cor-w fadeInUp">Engenharia e Regularizações</p>
+
+        <div>
+          <p id="textoescrevendo" class="descricao-servico font-ral-xl cor-03 data-anime=" 600"></p>
+        </div>
       </div>
     </div>
   </section>
   <!-- Botão WhatsApp -->
-  <div class="btn-whatsapp">
-    <a href=""><img src="source/icon/whatsapp.svg" alt="icone do whasapp"></a>
+  <div data-anime="2000" class="btn-whatsapp pulsar">
+    <a href="https://wa.me/5512982940138" target="_blank"><img src="source/icon/whatsapp.svg" alt="icone do whasapp"></a>
   </div>
 
   <!-- Descrição da Empresa -->
-  <section class="empresa">
+  <section class="empresa" id="empresa">
     <div class="empresa-bg">
       <div class="empresa container">
         <div class="empresa-icone">
           <div class="empresa-logo1">
-            <img src="source/icon/destaques/empresa.svg" alt="logo-empresa">
+            <img class="animate from-left" src="source/icon/destaques/empresa.svg" alt="Logo da Consult Vale">
           </div>
           <div>
-            <h2 class="font-ral-xxl cor-P10">Empresa</h2>
+            <h2 class="font-ral-xxl cor-P10 animate from-right">Empresa</h2>
           </div>
         </div>
         <div class="empresa-descricao container">
           <div class="empresa-logo">
-            <img src="source/img/logo/logo-padrao1.svg" alt="">
+            <img class="animate from-left" src="source/img/logo/logo-padrao1.svg" alt="Logo da Consult Vale">
           </div>
           <div class="empresa-paragrafo">
-            <p class="font-pop-dest cor-P10">Com experiência, seriedade e responsabilidade a CONSULT VALE - Engenharia e Regularizações, tem total compromisso em atender sempre dentro do prazo, com qualidade e segurança inquestionáveis. Oferecemos soluções em diversas áreas da Engenharia e Arquitetura como, Regularização Comercial e Residencial de Imóveis , Avaliação de imóveis, Laudos de Engenharia (Engenharia Diagnóstica), Perícias, Assistência Técnica Judiciária, Licenciamento no Corpo de Bombeiros e Laudo Técnico de Avaliação para a Vigilância Sanitária.</p>
+            <p class="font-pop-dest cor-P10 animate from-botton">Com <i>experiência, seriedade e responsabilidade</i> a <strong>CONSULT VALE  - Engenharia e Regularizações</strong>, tem <strong>total compromisso em atender sempre dentro do prazo, com qualidade e segurança inquestionáveis</strong>. Oferecemos soluções em diversas áreas da Engenharia e Arquitetura como, Regularização Comercial e Residencial de Imóveis , Avaliação de imóveis, Laudos de Engenharia (Engenharia Diagnóstica), Perícias, Assistência Técnica Judiciária, Licenciamento no Corpo de Bombeiros e Laudo Técnico de Avaliação para a Vigilância Sanitária.</p>
           </div>
         </div>
       </div>
@@ -74,17 +82,17 @@
   </section>
 
   <!-- Descrição dos Serviços -->
-  <section class="servicos container">
+  <section class="servicos container" id="servicos">
     <div class="servico-titulo">
-      <img src="source/icon/servivos1.svg" alt="">
+      <img src="./source/icon/destaques/servicos.svg " alt="">
       <div>
-        <h2 class="font-ral-xxl cor-D1">Nossos</h2>
-        <h3 class="font-ral-xxl cor-P10">Serviços</h3>
+        <h2 class="font-ral-xxl cor-D1 animate from-botton">Nossos</h2>
+        <h3 class="font-ral-xxl cor-P10 animate from-botton">Serviços</h3>
       </div>
     </div>
     <p class="font-pop-ser cor-P10">como podemos te ajudar ?</p>
     <div class="servico-descricao">
-      <h4 class="font-ral-x cor-P10">Aqui temos soluções dentro do mais rigoroso e preciso conhecimento técnico, a um ótimo custo benefício. Entre em contato e solicite um orçamento ou agende uma visita.</h4>
+      <h4 class="font-ral-x cor-P10 animate from-botton">Aqui temos<span class="cor-D1"> soluções</span> dentro do mais rigoroso e preciso conhecimento técnico, a um ótimo custo benefício. <strong>Entre em contato e solicite um orçamento ou agende uma visita</strong>.</h4>
 
     </div>
 
@@ -95,47 +103,47 @@
   <!-- seção de produtos -->
   <section class="produtos container">
     <div class="produtos-itens">
-      <div class="produto-servico">
+      <div class="produto-servico animate from-botton2">
         <img src="source/img/produtos/produto-1.jpg" alt="">
         <h2 class="font-pop-serv cor-D1">AVALIAÇÃO</h2>
         <h3 class="font-pop-g cor-P10">Imoveis</h3>
-        <p class="font-rob-m cor-P10">Processo de avaliação que pretende calcular com exatidão o valor de um imóvel por meio de prova técnica e procedimentos de comparação. Emitidos através de um laudo técnico ou parecer técnico realizado por engenheiros especializados em avaliações e concordante conformidade à norma NBR 14.653 da ABNT.</p>
-        <a class="botao" href="./product2.html">SAIBA MAIS</a>
+        <p class="font-rob-m cor-P10"><strong>Processo de avaliação que pretende calcular com exatidão o valor de um imóvel</strong> por meio de prova técnica e procedimentos de comparação. Emitidos através de um laudo técnico ou parecer técnico realizado por engenheiros especializados em avaliações e concordante conformidade à norma <strong>NBR 14.653 da ABNT</strong>.</p>
+        <a class="botao" href="./avaliacaoimoveis.html">SAIBA MAIS</a>
       </div>
-      <div class="produto-servico">
+      <div class="produto-servico animate from-botton1">
         <img src="source/img/produtos/produto-2.jpg" alt="">
         <h2 class="font-pop-serv cor-D1">REGULARIZAÇÃO</h2>
         <h3 class="font-pop-g  cor-P10">Imoveis</h3>
-        <p class="font-rob-m cor-P10">Comprar ou vender um imóvel engloba diversas questões e processos burocráticos, por esse motivo, antes de entrar em uma negociação, é fundamental que você analise com cuidado se estão irregularidades sobre a propriedade. Mas, afinal, você sabe como é feita a regularização de imóveis?</p>
-        <a class="botao" href="./product1.html">SAIBA MAIS</a>
+        <p class="font-rob-m cor-P10">Comprar ou vender um imóvel engloba diversas questões e processos burocráticos, por esse motivo, antes de entrar em uma negociação, é fundamental que você analise com cuidado se estão irregularidades sobre a propriedade. <strong>Mas, afinal, você sabe como é feita a regularização de imóveis?</strong></p>
+        <a class="botao" href="./regularizacaoimoveis.html">SAIBA MAIS</a>
       </div>
-      <div class="produto-servico">
+      <div class="produto-servico animate from-botton">
         <img src="source/img/produtos/produto-3.jpg" alt="">
         <h2 class="font-pop-serv cor-D1">AVCB/CLCB</h2>
         <h3 class="font-pop-g  cor-P10">Bombeiros</h3>
-        <p class="font-rob-m cor-P10">Manter-se regular lhe garante estar coberto por apólice de seguro, evita o fechamento do imóvel e aplicação de sanções legais. Somos especialista em obtenção e renovação do A.V.C.B. ou do CLCB, bem como de todos os itens que compõe o projeto técnico contra incêndio. Entenda por que sua empresa precisa desse documento.</p>
-        <a class="botao" href="">SAIBA MAIS</a>
+        <p class="font-rob-m cor-P10"><strong>Manter-se regular lhe garante estar coberto por apólice de seguro, evita o fechamento do imóvel e aplicação de sanções legais</strong>. Somos especialista em obtenção e renovação do <strong>A.V.C.B. ou do CLCB,</strong> bem como de todos os itens que compõe o projeto técnico contra incêndio. Entenda por que sua empresa precisa desse documento.</p>
+        <a class="botao" href="./avcb_clcb.html">SAIBA MAIS</a>
       </div>
-      <div class="produto-servico">
+      <div class="produto-servico animate from-botton2">
         <img src="source/img/produtos/produto-4.jpg"">
       <h2 class=" font-pop-serv cor-D1">LTA</h2>
         <h3 class="font-pop-g  cor-P10">Vigilância Sanitária</h3>
-        <p class="font-rob-m cor-P10">O Laudo Técnico de Avaliação LTA consiste na elaboração de um laudo técnico que visa descrever tecnicamente a edificação e o funcionamento da empresa a ser analisada e fiscalizada pela Vigilância Sanitária através de projetos, relatórios e memoriais, bem como as adaptações necessárias para abrigar a atividade desenvolvida pela empresa.</p>
-        <a class="botao" href="">SAIBA MAIS</a>
+        <p class="font-rob-m cor-P10"><strong>O Laudo Técnico de Avaliação LTA</strong> consiste na elaboração de um laudo técnico que visa descrever tecnicamente a edificação e o funcionamento da empresa a ser analisada e fiscalizada pela Vigilância Sanitária através de projetos, relatórios e memoriais, bem como as adaptações necessárias para abrigar a atividade desenvolvida pela empresa.</p>
+        <a class="botao" href="./lta.html">SAIBA MAIS</a>
       </div>
-      <div class="produto-servico">
+      <div class="produto-servico animate from-botton1">
         <img src="source/img/produtos/produto-2.jpg" alt="">
-        <h2 class="font-pop-serv cor-D1">AVALIAÇÃO</h2>
+        <h2 class="font-pop-serv cor-D1">SERVIÇO 1</h2>
         <h3 class="font-pop-g cor-P10">IMOVEIS</h3>
         <p class="font-rob-m cor-P10">Processo de avaliação que pretende calcular com exatidão o valor de um imóvel por meio de prova técnica e procedimentos de comparação. Emitidos através de um laudo técnico ou parecer técnico realizado por engenheiros especializados em avaliações e concordante conformidade à norma NBR 14.653 da ABNT.</p>
-        <a class="botao" href="">SAIBA MAIS</a>
+        <a class="botao" href="./product5.html">SAIBA MAIS</a>
       </div>
-      <div class="produto-servico">
+      <div class="produto-servico animate from-botton">
         <img src="source/img/produtos/produto-3.jpg" alt="">
-        <h2 class="font-pop-serv cor-D1">AVALIAÇÃO</h2>
+        <h2 class="font-pop-serv cor-D1">SERVIÇO 2</h2>
         <h3 class="font-pop-g  cor-P10">IMOVEIS</h3>
         <p class="font-rob-m cor-P10">Processo de avaliação que pretende calcular com exatidão o valor de um imóvel por meio de prova técnica e procedimentos de comparação. Emitidos através de um laudo técnico ou parecer técnico realizado por engenheiros especializados em avaliações e concordante conformidade à norma NBR 14.653 da ABNT.</p>
-        <a class="botao" href="">SAIBA MAIS</a>
+        <a class="botao" href="./product6.html">SAIBA MAIS</a>
       </div>
     </div>
   </section>
@@ -148,28 +156,28 @@
         <div class="beneficio-itens">
           <div class="beneficio-produto">
             <div class="beneficio-imagem">
-              <img src="source/img/beneficios/beneficio1.svg" alt="">
+              <img class="animate from-botton2" src="source/img/beneficios/beneficio1.svg" alt="">
             </div>
             <h3 class="font-pop-cap cor-P08">CAPACITAÇÃO</h3>
-            <P class="cor-P08 font-pop-desc">Somos especialistas capacitadas e devidamente credenciadas nos órgãos competentes *CREA e **CAU. Unimos o que gostamos fazendo o que as pessoas recisam.</P>
+            <P class="cor-P08 font-pop-desc">Somos <span class="cor-D1">especialistas capacitadas e devidamente credenciadas</span>nos órgãos competentes *CREA e **CAU. Unimos o que gostamos fazendo o que as pessoas recisam.</P>
           </div>
         </div>
         <div class="beneficio-itens">
           <div class="beneficio-produto">
             <div class="beneficio-imagem">
-              <img src="source/img/beneficios/beneficio2.svg" alt="">
+              <img class="animate from-botton1" src="source/img/beneficios/beneficio2.svg" alt="">
             </div>
             <h3 class="font-pop-cap cor-P08">ATENDIMENTO<br>PERSONALIZADO</h3>
-            <P class="cor-P08 font-pop-desc">Atendemos de forma personalizada de acordo com cada necessidade, facilitando todo o processo de interação com os clientes e parceiros.</P>
+            <P class="cor-P08 font-pop-desc">Atendemos de forma <span class="cor-D1" >personalizada de acordo com cada necessidade</span>, facilitando todo o processo de interação com os clientes e parceiros.</P>
           </div>
         </div>
         <div class="beneficio-itens">
           <div class="beneficio-produto">
             <div class="beneficio-imagem">
-              <img src="source/img/beneficios/beneficio3.svg" alt="">
+              <img class="animate from-botton" src="source/img/beneficios/beneficio3.svg" alt="">
             </div>
             <h3 class="font-pop-cap cor-P08">CUSTO BENEFÍCIO</h3>
-            <p class="cor-P08 font-pop-desc">Soluções técnicas, a um ótimo custo benefício. Boas parcerias são essenciais para crescer mais, e é pra isso que estamos aqui.
+            <p class="cor-P08 font-pop-desc">Soluções técnicas, a um<span class="cor-D1">ótimo custo benefício.</span>Boas parcerias são essenciais para crescer mais, e é pra isso que estamos aqui.
             </P>
           </div>
         </div>
@@ -181,15 +189,15 @@
   <section class="chamada">
     <div class="chamada-bg">
       <div class="chamada-conteudo container">
-        <h2>
+        <h2 class="animate from-botton2">
           Solicite um orçamento agora mesmo!
         </h2>
         <div class="btn-chamada">
-          <div class="btn">
-            <a class="botao1" href="">Ligar para a Consult Vale</a>
+          <div class="btn animate from-left">
+            <a class="botao1" href="tel:+5512982940138">Ligar para a Consult Vale</a>
           </div>
-          <div class="btn">
-            <a class="botao1" href="">Chame no WhatsApp</a>
+          <div class="btn animate from-right">
+            <a class="botao1 animate from-right" href="https://wa.me/5512982940138" target="_blank">Chame no WhatsApp</a>
           </div>
         </div>
       </div>
@@ -200,14 +208,14 @@
 
   <section class="clientes">
     <div class="container">
-      <div class="clientes-logo1">
+      <div class="clientes-logo1 animate from-botton">
         <img src="./source/img/clientes/icon-clentes.svg" alt="">
       </div>
       <div class="clientes-titulo">
-        <h2 class="font-ral-xxl cor-P10">Clientes</h2>
+        <h2 class="font-ral-xxl cor-P10 animate from-botton">Clientes</h2>
       </div>
       <div class="clientes-lista">
-        <ul>
+        <ul class="animate from-botton">
           <li><img src="source/img/clientes/contabilidade.png" alt=""></li>
           <li><img src="source/img/clientes/conexparts.webp" alt=""></li>
           <li><img src="source/img/clientes/justinos.jpg" alt=""></li>
@@ -228,13 +236,13 @@
   </section>
 
   <section class="depoimentos container">
-    <h2 class="font-ral-xxl cor-P10">Depoimentos</h2>
+    <h2 class="font-ral-xxl cor-P10 animate from-botton">Depoimentos</h2>
     <div class="depoimento-sobre">
-      <h3 class="font-pop-sub cor-P10">Vejam o que as pessoas que ja contrataram os seriços da Consult Vale estão Falando!</h3>
+      <h3 class="font-pop-sub cor-P10 animate from-right">Vejam o que as pessoas que ja contrataram os seriços da Consult Vale estão Falando!</h3>
     </div>
     <div class="depoimento-grid">
 
-      <div class="depoimento-item">
+      <div class="depoimento-item animate from-botton2">
         <div class="depoimento-imagem-nome">
           <img src="source/img/depoimentos/sorriso-car.png" alt="">
           <h6>Sorriso CAr</h6>
@@ -245,7 +253,7 @@
         </div>
       </div>
 
-      <div class="depoimento-item">
+      <div class="depoimento-item animate from-botton1">
         <div class="depoimento-imagem-nome">
           <img src="source/img/depoimentos/josue.png" alt="">
           <h6>Josuel Gandolpho</h6>
@@ -256,7 +264,7 @@
         </div>
       </div>
 
-      <div class="depoimento-item">
+      <div class="depoimento-item animate from-botton">
         <div class="depoimento-imagem-nome">
           <img src="source/img/depoimentos/diego-justino.png" alt="">
           <h6>Diego Justino</h6>
@@ -266,7 +274,7 @@
           <p>“Que atendimento maravilhoso!!!Adriana é super simpática, profissional, sempre disponível a sanar dúvidas, preocupada com prazos e as necessidades do cliente. Há tempos um prestador de serviços não me surpreendia positivamente como foi o caso. Parabéns Adriana, e obrigado por seu empenho e profissionalismo.“</p>
         </div>
       </div>
-      <div class="depoimento-item">
+      <div class="depoimento-item animate from-botton2">
         <div class="depoimento-imagem-nome">
           <img src="source/img/depoimentos/mobile-prime.png" alt="">
           <h6>MOBILE PRIME</h6>
@@ -276,7 +284,7 @@
           <p>“Parabéns a toda equipe! Profissionais de alto gabarito! Realmente sabem o que estão fazendo. Recomendo!"</p>
         </div>
       </div>
-      <div class="depoimento-item">
+      <div class="depoimento-item animate from-botton1">
         <div class="depoimento-imagem-nome">
           <img src="source/img/depoimentos/fabiana.png" alt="">
           <h6>Fabiane Perreira</h6>
@@ -287,7 +295,7 @@
         </div>
       </div>
 
-      <div class="depoimento-item">
+      <div class="depoimento-item animate from-botton">
         <div class="depoimento-imagem-nome">
           <img src="source/img/depoimentos/claudinei.png" alt="">
           <h6>Claudineia Ap Sanches</h6>
@@ -298,7 +306,7 @@
         </div>
       </div>
 
-      <div class="depoimento-item">
+      <div class="depoimento-item animate from-botton2">
         <div class="depoimento-imagem-nome">
           <img src="source/img/depoimentos/dimi.png" alt="">
           <h6>DIMMY STUDIO</h6>
@@ -309,7 +317,7 @@
         </div>
       </div>
 
-      <div class="depoimento-item">
+      <div class="depoimento-item animate from-botton1">
         <div class="depoimento-imagem-nome">
           <img src="source/img/depoimentos/fiama.png" alt="">
           <h6>Fiama Santana</h6>
@@ -320,7 +328,7 @@
         </div>
       </div>
 
-      <div class="depoimento-item">
+      <div class="depoimento-item animate from-botton">
         <div class="depoimento-imagem-nome">
           <img src="source/img/depoimentos/rosana.png" alt="">
           <h6>Rosana Araujo</h6>
@@ -333,8 +341,11 @@
     </div>
   </section>
 
-  <footer>
+  <footer id="contato">
     <div class="footer-bg">
+      <a href="" id="#inicio">
+
+      </a>
       <div class="footer-grid">
         <div class="footer-logo">
           <div class="logo img">
@@ -344,13 +355,12 @@
         <div class="footer-servicos">
           <h3 class="cor-P10">Principais Serviços</h3>
           <ul>
-            <li><a href="">Avaliação de Imoveis</a></li>
-            <li><a href="">AVCB-CLCB</a></li>
-            <li><a href="">Laudos e Pericias</a></li>
-            <li><a href="">LTA - Vigilância Sanitária</a></li>
-            <li><a href="">Regularização de Imoveis</a></li>
-            <li><a href="">Serviço 1</a></li>
-            <li><a href="">Serviço 2</a></li>
+            <li><a href="./avcb_clcb.html">AVCB/CLCB - Bombeiros</a></li>
+            <li><a href="./lta.html">LTA - Vigilância Sanitária</a></li>
+            <li><a href="./avaliacaoimoveis.html">Avaliação de Imoveis</a></li>
+            <li><a href="./regularizacaoimoveis.html">Regularização de Imoveis</a></li>
+            <li><a href="./product5.html">Serviço 1</a></li>
+            <li><a href="./product6.html">Serviço 2</a></li>
           </ul>
         </div>
         <div class="footer-contato">
@@ -358,22 +368,22 @@
             <li><a href="">
                 <img src="source/img/logo/email.svg" alt="">
                 contrato@consultvaleengenharia.com.br</a></li>
-            <li><a href="">
+            <li><a href="https://wa.me/5512982940138" target="_blank">
                 <img src="source/img/logo/wh.svg" alt="">
                 WhatsApp (12) 98294-0138</a></li>
-            <li><a href="">
+            <li><a href="tel:+5512982940138">
                 <img src="source/img/logo/comercial.svg" alt="">
-                Comercial (12) 0000-0000</a></li>
+                Comercial (12) 98294-0138</a></li>
           </ul>
 
         </div>
         <div class="footer-mapa-site">
           <h3 class="cor-P10">Mapa do Site</h3>
           <ul>
-            <li><a href="">Início</a></li>
-            <li><a href="">Empresa</a></li>
-            <li><a href="">Serviços</a></li>
-            <li><a href="">Contato</a></li>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#empresa">Empresa</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="https://wa.me/5512982940138" target="_blank">Contato</a></li>
           </ul>
 
         </div>
@@ -387,11 +397,19 @@
 
 
       </div>
+      <div onclick="scrollToTop()" class="subir">
+        <img src="./source/img/product/seta-abrir.svg" alt="">
+      </div>
       <div class="rodape">
         <p> Consult Vale &copy; Todos os seus Direitos Reservados.</p>
+
       </div>
     </div>
   </footer>
+  <script src="./source/scripts/animacaosrcoll.js"></script>
+  <script src="./source/scripts/plugins/simple-anime.js"></script>
+  <script src="./source/scripts/textoescrevendo.js"></script>
+  <script src="./source/scripts/perguntas.js"></script>
 </body>
 
 </html>

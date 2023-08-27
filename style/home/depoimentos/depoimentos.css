@@ -40,10 +40,15 @@
   display: flex;
   background-color: var(--cor-01);
   width: 370px;
-box-shadow: 1px 1px 2px rgba(0 , 0, 0, 0.2);
+  box-shadow: 1px 1px 2px rgba(0 , 0, 0, 0.2);
   padding: 10px;
   border-radius: 10px;
+  cursor: pointer;
 }
+.depoimento-item:hover {
+  transform: scale(1.05);
+}
+
 .depoimento-imagem-nome {
   width: 100px;
   display: flex;

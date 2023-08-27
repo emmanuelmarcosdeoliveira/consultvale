@@ -1,3 +1,6 @@
+.empresa {
+  padding-top: 90px;
+}
 .empresa-icone {
   display: flex;
   justify-content: center;
@@ -22,6 +25,7 @@ width: 380px;
     .empresa {
       width: 350px;
       margin: 0 auto;
+      padding-top: 40px;
     }
       .empresa-icone {
       display: block;
@@ -40,7 +44,7 @@ width: 380px;
       padding: 0px;
     }
     .empresa-logo1 img {
-      width: 64px;
+      width: 84px;
       padding: 0px;
       margin-bottom: 20px;
     }
