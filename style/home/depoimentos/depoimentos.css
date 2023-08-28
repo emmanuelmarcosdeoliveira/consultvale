@@ -108,11 +108,19 @@
     width: 300px;
     font-size: 18px;
   }
-  .depoimento-grid {
+  /* .depoimento-grid {
     grid-template-columns: 1fr;
     gap: 1%;
     margin: 10px;
+  } */
+
+  .depoimento-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
   }
+
   .depoimento-item {
     width: 340px;
     flex-direction: column;

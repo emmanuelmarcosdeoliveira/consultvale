@@ -1,20 +1,27 @@
 .chamada-bg {
   background: url(../../../source/img/chamada/chamada1.jpg);
-  filter: opacity(80%);
-  filter: brightness(90%);
+   /* filter: brightness(80%); */
   width: 100vw;
   height: 410px;
   background-position:  center;
   background-size: cover;
   object-fit: cover;
   background-attachment: fixed;
+  position: relative;
+}
+.chamada-bg::before {
+  content: ""; 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .chamada-conteudo h2 {
   font: 700 2.25rem/1.2 "Raleway", sans-serif;
   text-align: center;
   padding-top: 100px;
-  color: var(--cor-w);
-  text-shadow: 2px 4px 2px #000;
+  color: #fff;
+  text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.2)
 }
 .btn-chamada {
   display: flex;
@@ -31,7 +38,10 @@
     width: 100%;
     height: 220px;
   }
-  .chamada-conteudo h2 {
+  .chamada-bg::before {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+    .chamada-conteudo h2 {
     text-align: center;
     padding-top: 50px;
     font-size: 16px;

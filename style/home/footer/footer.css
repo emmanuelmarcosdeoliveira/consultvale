@@ -103,6 +103,9 @@
     padding-bottom: 8px;
     padding-left: 10px;
   }
+  .footer-servicos ul {
+    text-align: center;
+  }
 
   .footer-servicos ul li a:hover {
     text-decoration: underline;
@@ -129,6 +132,9 @@
     font-size: 15px;
     padding-top: 5px;
   }
+  .footer-mapa-site ul {
+  text-align: center;  
+  }
   .footer-mapa-site ul li a {
     color: var(--cor-P10);
     display: block;
@@ -137,11 +143,15 @@
   .footer-mapa-site ul li a:hover {
     text-decoration: underline;
   }
-
+ .footer-redes-sociais {
+  display: flex;
+  justify-content: flex-end;
+  padding:  0px 20px;
+ }
   .footer-redes-sociais img {
     width: 60px;
     margin: 5px;
-  }
+      }
   .rodape {
     display: flex;
     justify-content: center;

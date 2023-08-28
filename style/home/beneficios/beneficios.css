@@ -22,13 +22,27 @@
 .beneficios p {
   padding: 0px 20px;
   margin-top: 40px;
-  height: 400px;
+  height: 300px;
+  text-align: center;
+}
+.beneficio-produto1 p {
+  margin-top: 0px;
+}
+.beneficio-produto3 p {
+  margin-top: 0px;
 }
 .beneficios img {
   padding-left: 120px;
   padding-right: 120px;
   padding-top: 120px;
 }
+.beneficio-produto2 {
+  margin-top: -100px;
+}
+.beneficio-produto3 {
+  margin-top: -200px;
+}
+
 
 @media (max-width: 600px) {
   
@@ -46,9 +60,9 @@
    
   }
   .beneficios h2 {
-    width: 360px;
     padding-top: 60px;
     font-size: 18px;
+    text-align: center;
   }
   .beneficios h3 {
     width: 350px;
@@ -59,6 +73,7 @@
     font-size: 18px;
     margin-top: 20px;
   }
+  
   .beneficios img {
     width: 340px;
     height: 180px;
@@ -68,6 +83,12 @@
   }
   .beneficio-item {
     width: 360px;
+  }
+  .beneficio-produto2 {
+    margin-top: 0px;
+  }
+  .beneficio-produto3 {
+    margin-top: 0px;
   }
   
 }

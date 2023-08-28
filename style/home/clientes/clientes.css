@@ -61,6 +61,57 @@
   max-width: 350px;
   padding-bottom: 120px;
 }
+
+
+
+
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  white-space: nowrap;
+}
+/* .logos:hover .logos-slide  {
+animation-play-state: paused;
+} */
+.logos-slide {
+  display: inline-block;
+   animation: 25s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 220px;
+  margin: 80px 40px;
+}
+
+@keyframes slide {
+  from {
+transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 600px) {
   .clientes-logo1 {
     padding-top: 60px;

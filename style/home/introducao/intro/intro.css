@@ -9,7 +9,7 @@
   right: 0;
   translate: 50%, -50%;
   align-items: center;
-  text-shadow: 2px 2px 2px #000;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 .introducao img {
   display: none;
@@ -22,7 +22,7 @@
 
 .descricao-site {
   margin-bottom: 45px;
-  text-shadow: 2px 4px 2px #000;
+  text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.5);
 }
 .descricao-servico {
   max-width: 1200px;
@@ -41,19 +41,18 @@
     margin-bottom: 10px;
   }
   .descricao-site {
-    font-size: 32px;
+    font-size: 26px;
     margin-bottom: 24px;
     padding: 5px;
     text-shadow: none;
   }
   .descricao-servico {
     width: 360px;
-    font-size: 14px;
-    text-shadow: none;
-    /* padding: 10px; */
+    font-size: 18px;
+    
   }
   .introducao img {
-    height: 600px;
+    height: 920px;
     margin: 0px;
   }
   .meuvideo {
@@ -61,5 +60,9 @@
   }
   .introducao img {
     display: block!important;
+  }
+  #textoescrevendo {
+    text-shadow: none;
+    font-weight: 400;
   }
 }
