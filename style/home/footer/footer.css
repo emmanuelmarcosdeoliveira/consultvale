@@ -131,9 +131,11 @@
     text-align: center;
     font-size: 15px;
     padding-top: 5px;
+    display: none;
   }
   .footer-mapa-site ul {
     text-align: center;
+    display: none;
   }
   .footer-mapa-site ul li a {
     color: var(--cor-P10);

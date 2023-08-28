@@ -75,12 +75,12 @@
 
 @media (max-width: 450px) {
 .depoimentos {
-  margin-bottom: 250px;
+  margin-bottom: 60px;
 }
   .depoimentos h2 {
     width: 360px;
     font-size: 26px;
-    margin: 60px 0px;
+    margin: 80px 0px;
   }
   .depoimentos h2::before {
     content: " ";
