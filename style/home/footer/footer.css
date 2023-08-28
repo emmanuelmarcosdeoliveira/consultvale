@@ -66,6 +66,7 @@
 }
 .rodape {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: var(--cor-P10);
@@ -74,6 +75,9 @@
 }
 .rodape p {
   font-size: 18px;
+}
+.rodape a:hover {
+text-decoration: underline;
 }
 
 .subir {
