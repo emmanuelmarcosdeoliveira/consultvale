@@ -28,7 +28,8 @@
   display: inline-block;
   margin-right: 5px;
   margin-left: 5px;
-  padding: 5px;
+  margin-bottom: 5px;
+  padding: 0px;
   height: 38px;
   width: 40px;
 }
@@ -70,17 +71,16 @@
 
 .subir {
   text-align: center;
-   padding: 20px;
+  padding: 20px;
   cursor: pointer;
 }
 .subir img {
-   width: 20px;
-  transition: .1s;
+  width: 20px;
+  transition: 0.1s;
 }
 .subir:hover {
   transform: translateY(-5px);
-} 
-
+}
 
 @media (max-width: 450px) {
   .footer-grid {
@@ -133,7 +133,7 @@
     padding-top: 5px;
   }
   .footer-mapa-site ul {
-  text-align: center;  
+    text-align: center;
   }
   .footer-mapa-site ul li a {
     color: var(--cor-P10);
@@ -143,15 +143,15 @@
   .footer-mapa-site ul li a:hover {
     text-decoration: underline;
   }
- .footer-redes-sociais {
-  display: flex;
-  justify-content: flex-end;
-  padding:  0px 20px;
- }
+  .footer-redes-sociais {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 20px;
+  }
   .footer-redes-sociais img {
     width: 60px;
     margin: 5px;
-      }
+  }
   .rodape {
     display: flex;
     justify-content: center;
