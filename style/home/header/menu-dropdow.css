@@ -28,17 +28,34 @@ header .navbar ul li {
   border-radius: 10px;
 }
 
+
 header .navbar ul li a {
   padding-top: 5px;
   font-size: 18px;
   padding: 10px 20px;
   display: block;
   color: #1b3954;
-}
-header .navbar ul li a:hover {
+  }
+  
+header .navbar ul li  a:hover {
   background-color: var(--cor-P10);
   color: #fff;
   border-radius: 10px;
+}
+header .navbar ul li ul li:nth-child(-n + 5) a:hover {
+  background-color: var(--cor-P10);
+  color: #fff;
+  border-radius: 0px;
+}
+header .navbar ul li ul li:nth-child(1) a:hover {
+  background-color: var(--cor-P10);
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+header .navbar ul li:nth-child(6) a:hover {
+  background-color: var(--cor-P10);
+  color: #fff;
+  border-radius: 0px 0px 10px 10px;
 }
 header .navbar ul li ul {
   margin-top: -5px;
@@ -77,6 +94,9 @@ header span {
   font-size: 10px;
   align-items: center;
 }
+header .navbar ul li ul li {
+  border: none;
+}
 
 /* break points */
 
@@ -105,7 +125,7 @@ header span {
     width: 100%;
   }
   header .navbar ul li ul li {
-    background-color: #eee;
+    background-color: #fff;
   }
   header .navbar ul li ul li ul {
     width: 100%;
@@ -129,5 +149,23 @@ label img {
     }
  label img {
     width: 32px;
+  }
+  header .navbar ul li:nth-child(-n + 5) a:hover {
+    background-color: var(--cor-P10);
+    color: #fff;
+    border-radius: 0px;
+  }
+  header .navbar ul li:nth-child(1) a:hover {
+    background-color: var(--cor-P10);
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+  }
+  header .navbar ul li:nth-child(6) a:hover {
+    background-color: var(--cor-P10);
+    color: #fff;
+    border-radius: 0px 0px 10px 10px;
+  }
+  header .navbar ul li ul li {
+    border: none;
   }
 }

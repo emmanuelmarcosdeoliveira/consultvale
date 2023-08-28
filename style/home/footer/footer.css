@@ -15,11 +15,15 @@
 }
 .footer-servicos h3 {
   font-size: 16px;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 10px;
+}
+.footer-servicos ul li {
+  margin: 10px 0;
 }
 .footer-servicos ul li a {
   color: var(--cor-P10);
+  padding: 10px;
 }
 .footer-servicos ul li a:hover {
   text-decoration: underline;
@@ -43,8 +47,11 @@
   text-decoration: underline;
 }
 .footer-mapa-site h3 {
-  font-size: 15px;
-  padding-top: 5px;
+  font-size: 16px;
+  padding-top: 0px;
+}
+.footer-mapa-site ul li {
+  margin: 10px 0;
 }
 .footer-mapa-site ul li a {
   color: var(--cor-P10);
@@ -128,9 +135,6 @@
     text-decoration: underline;
   } */
   .footer-mapa-site h3 {
-    text-align: center;
-    font-size: 15px;
-    padding-top: 5px;
     display: none;
   }
   .footer-mapa-site ul {
