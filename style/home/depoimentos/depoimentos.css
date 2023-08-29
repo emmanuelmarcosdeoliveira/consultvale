@@ -70,6 +70,21 @@
   grid-template-columns: repeat(3, 32%);
   gap: 20px;
 }
+ .dep-click {
+display: flex;
+justify-content: center;
+align-items: center; 
+margin-top: 10px;
+ }
+ .dep-click a {
+  font-weight: 700;
+  font-style: italic;
+ }
+
+ .dep-click a:hover {
+  text-decoration: underline;
+ }
+ 
 @media (max-width: 450px) {
 .depoimentos {
   margin-bottom: 60px;
