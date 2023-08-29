@@ -45,10 +45,13 @@
 
 
 @media (max-width: 600px) {
-  
+  .beneficio-bg  {
+    padding-bottom: 40px;
+  }
   .beneficio {
     width: 360px;
-    margin-top: 60px;
+    margin-top: 20px;
+    
      }
   .beneficio-produto {
     width: 360px;
@@ -60,26 +63,31 @@
    
   }
   .beneficios h2 {
-    padding-top: 60px;
+    padding-top: 20px;
     font-size: 18px;
     text-align: center;
   }
   .beneficios h3 {
     width: 350px;
+    height: auto;
+    padding-top: 10px;
+    font-size: 1.5rem;
     }
   .beneficios p {
     width: 360px;
-    height: 150px;
+    height:auto;
     font-size: 18px;
     margin-top: 20px;
+    padding: 2px;
   }
   
+  
+  
   .beneficios img {
-    width: 340px;
-    height: 180px;
+    width: 120px;
     padding: 0px;
-    margin-left: 10px;
-    margin-right: 10px; 
+    margin-left: 120px;
+    margin-right: 120px; 
   }
   .beneficio-item {
     width: 360px;

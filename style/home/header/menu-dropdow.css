@@ -1,7 +1,6 @@
 header {
   font-weight: bold;
   font-family: "Raleway", sans-serif;
-  font-size: 1.5rem;
   background-color: #ededed;
   position: fixed;
   top: 0;
@@ -9,14 +8,15 @@ header {
   right: 0;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   padding: 0px 5%;
+  padding-top: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   z-index: 2000;
 }
 .logo img {
-  width: 148px;
-  height: 124px;
+  width: 160px;
+  
 }
 header .navbar ul {
   list-style: none;
@@ -28,13 +28,15 @@ header .navbar ul li {
   border-radius: 10px;
 }
 
-
 header .navbar ul li a {
   padding-top: 5px;
-  font-size: 18px;
+  font-size: 1.25rem;
   padding: 10px 20px;
   display: block;
   color: #1b3954;
+  }
+  header .navbar ul li ul li a {
+    font-size: 1.23rem;
   }
   
 header .navbar ul li  a:hover {
@@ -61,7 +63,7 @@ header .navbar ul li ul {
   margin-top: -5px;
   position: absolute;
   left: 0;
-  width: 290px;
+  width: 320px;
   background-color: #fff;
   display: none;
   border-radius: 10px;
@@ -142,10 +144,16 @@ label img {
     header {
       width: 100vw;
     } 
+    header .navbar ul li a {
+      font-size: 1.2rem;
+    }
+    header .navbar ul li ul li a {
+      font-size:1.1rem;
+    }
   
     .logo img {
-      width: 148px;
-      height: 124px;
+      width: 96px;
+     
     }
  label img {
     width: 32px;

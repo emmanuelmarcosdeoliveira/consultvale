@@ -34,7 +34,7 @@
 }
 @media (max-width: 600px) {
   .produtos-itens {
-    width: 360px;
+    width: 320px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 2%;
@@ -47,35 +47,35 @@
     margin-bottom: 20px;
   }
   .produto-servico {
-    width: 300px;
-    height: 650px;
+    width: 320px;
+    height: auto;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 1px 4px 4px var(--cor-00);
-    margin-left: 30px;
+    margin-left: 25px;
     margin-right: 25px;
-    margin-bottom: 5px;
+    padding-bottom: 20px;
   }
   .produto-servico p {
     font-size: 14px;
-    margin: 0px 20px;
-    margin-top: 20px;
-    height: 230px;
+    margin: 10px;
+    height: auto;
+   
   }
   .produtos {
     margin-bottom: 40px;
   }
   .produtos-itens {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     gap: 10px;
   }
   .produto-servico h2 {
     margin-top: 10px;
   }
   .produtos img {
-    width: 300px;
+    width: 320px;
     height: 220px;
     border-radius: 10px 10px 0px 0px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
-}
+  }

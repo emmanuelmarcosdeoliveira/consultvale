@@ -2,7 +2,7 @@
   background: var(--cor-w);
 }
 .clientes-logo1 {
-  padding-top: 120px;
+  padding-top: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,7 +81,7 @@ animation-play-state: paused;
 
 .logos-slide img {
   height: 220px;
-  margin: 80px 40px;
+  margin: 40px 40px;
 }
 
 @keyframes slide {
@@ -113,8 +113,11 @@ transform: translateX(0);
 
 
 @media (max-width: 600px) {
+  .logos {
+    padding: 10px;
+  }
   .clientes-logo1 {
-    padding-top: 60px;
+    padding-top: 20px;
   }
   .clientes-logo1 img {
     width: 100px;
@@ -152,5 +155,9 @@ transform: translateX(0);
     bottom: 5px;
     right: 20px;
     background-color: var(--cor-D01);
+  }
+  .logos-slide img {
+    height: 220px;
+    margin: 20px 20px;
   }
 }

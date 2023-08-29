@@ -1,5 +1,5 @@
 .servicos {
-  padding-top: 170px;
+  padding-top: 90px;
 }
 
 .servico-titulo {
@@ -30,7 +30,7 @@
   .servicos {
     margin: 0 auto;
     width: 350px;
-    padding-top: 60px;
+    padding-top: 0px;
   }
   .servico-titulo {
     display: flex;
