@@ -93,7 +93,6 @@ text-decoration: underline;
 .subir:hover {
   transform: translateY(-5px);
 }
-
 @media (max-width: 450px) {
   .footer-grid {
     grid-template-columns: 1fr;

@@ -1,5 +1,5 @@
 .depoimentos {
-  margin-bottom: 120px;
+  margin-bottom: 40px;
 }
 .depoimentos h2 {
   text-align: center;
@@ -69,6 +69,8 @@
     display: grid; 
   grid-template-columns: repeat(3, 32%);
   gap: 20px;
+ margin: 10px 0;
+ 
 }
  .dep-click {
 display: flex;
