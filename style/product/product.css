@@ -1,5 +1,5 @@
 .product {
-  margin-top: 200px;
+  margin-top: 120px;
   display: flex;
   align-items: center;
 }
@@ -115,8 +115,13 @@
     display: flex;
     align-items: center;
   }
+  .product-introducao {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
   .product-introducao h2 {
     font-size: 32px;
+    margin-bottom: 40px;
   }
   .product-introducao h2::before {
     content: " ";

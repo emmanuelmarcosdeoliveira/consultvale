@@ -167,7 +167,7 @@
     padding: 2px;
   }
   .footer-redes-sociais img {
-    width: 35px;
+    width: 45px;
   }
   .footer-contato h3 {
     display: none;
@@ -178,6 +178,7 @@
     color: var(--cor-P10);
     font-weight: 600;
     font-size: 1rem;
+    padding-bottom: 10px;
   }
   .footer-contato ul li img {
     display: inline-block;
