@@ -125,22 +125,18 @@ margin-top: 10px;
     margin-top: 20px 0px;
     padding: 0;
   }
-  /* .depoimento-grid {
-    grid-template-columns: 1fr;
-    gap: 1%;
-    margin: 10px;
-  } */
-
-  .depoimento-grid {
+    .depoimento-grid {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     overflow-y: hidden;
   }
-
   .depoimento-item {
     width: 330px;
     flex-direction: column;
+  }
+  .depoimento-item:hover {
+    transform: none;
   }
   .depoimento-descricao {
     margin: 10px auto;
@@ -154,4 +150,12 @@ margin-top: 10px;
   .depoimento-imagem-nome {
     padding: 5px 10px;
   }
+  .dep-click a {
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+   }
+   .dep-click img {
+    width: 65px;
+   }
  }
