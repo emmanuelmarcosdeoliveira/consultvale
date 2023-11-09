@@ -12,13 +12,14 @@ body {
   background-color: #f8f8f8;
 }
 .container {
-  width: 1216px;
+  width: 1200px;
   margin: 0 auto;
 }
 
 dd {
   margin: 0px;
 }
+
 body,
 html {
   overflow-x: hidden;
@@ -30,9 +31,9 @@ html {
     max-width: 370px;
   }
 }
-/* html {
-  scroll-behavior: smooth;
-} */
+
 #textoescrevendo {
   font-style: italic;
+ color: var(--cor-P10);
+  
 }

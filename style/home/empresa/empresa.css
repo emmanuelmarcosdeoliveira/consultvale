@@ -10,15 +10,15 @@
   width: 120px;
   margin: 20px 40px;
   }
-
-  .empresa-descricao {
+    .empresa-descricao {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 90px;
   }
   .empresa-logo img {
-width: 380px;
+  max-width: 380px;
+  display: block;
   }
 
   @media (max-width: 600px  ) {
