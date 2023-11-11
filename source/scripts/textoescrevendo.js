@@ -1,7 +1,7 @@
 // Texto Escrevendo sozinho
 const el = document.querySelector("#textoescrevendo");
 const text =
-  "Soluções para diversos tipos de burocracias com preciso conhecimento técnico, resultados satisfatórios e um ótimo custo benefício.";
+  "Soluções para diversos tipos de burocracias com preciso conhecimento técnico, resultados satisfatórios e um ótimo custo-benefício.";
 const interval = 80;
 function showText(el, text, interval) {
   const char = text.split("").reverse();

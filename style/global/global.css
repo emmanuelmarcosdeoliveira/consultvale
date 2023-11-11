@@ -35,5 +35,7 @@ html {
 #textoescrevendo {
   font-style: italic;
  color: var(--cor-P10);
+ font-family: roboto;
+ font-weight: 700;
   
 }

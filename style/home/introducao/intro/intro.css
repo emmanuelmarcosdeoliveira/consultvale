@@ -46,7 +46,7 @@
   .bem-vindo {
     margin-top: 20px;
     font-size: 28px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
   }
   .descricao-site {
     font-size: 26px;
@@ -75,7 +75,7 @@
   }
   .descricao-servico1 {
     display: inline-block;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     width: 360px;
     color: var(--cor-02);
     }
