@@ -2,14 +2,17 @@
   text-align: center;
   margin: 0;
 }
+.bem-vindo	{
+  font-size: 60px;
+ }
 .intro-bem-vindo {
-  position: absolute;
+    position: absolute;
   top: 35%;
   left: 0;
   right: 0;
   translate: 50%, -50%;
   align-items: center;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 2px 2px  rgba(0, 0, 0, 0.1);
 }
 .introducao img {
   display: none;
@@ -23,6 +26,7 @@
 .descricao-site {
   margin-bottom: 45px;
   text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.5);
+  opacity: 70%;
 }
 .descricao-servico {
   max-width: 1200px;
@@ -42,7 +46,7 @@
   .bem-vindo {
     margin-top: 20px;
     font-size: 28px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
   }
   .descricao-site {
     font-size: 26px;
@@ -71,7 +75,7 @@
   }
   .descricao-servico1 {
     display: inline-block;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     width: 360px;
     color: var(--cor-02);
     }
