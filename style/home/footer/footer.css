@@ -146,6 +146,13 @@
     display: flex;
     justify-content: flex-end;
     padding: 0px 5px;
+    position: relative;
+
+  }
+   .footer-redes-sociais .instagran {
+    position: absolute;
+    right: 0px;
+    bottom: 70px;
   }
   .footer-redes-sociais h3 {
     font-size: 0.6rem;
