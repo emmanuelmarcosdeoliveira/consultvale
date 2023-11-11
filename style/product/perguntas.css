@@ -65,13 +65,15 @@
   font: 400 1rem/1.4 "Poppins", sans-serif;
   padding: 20px 20px 20px 30px;
   color: var(--cor-P10);
-}
+  }
 
 .perguntas dd {
   display: none;
+   
 }
 .perguntas dd.ativa {
   display: block;
+
 }
 
 @media (max-width: 450px) {
