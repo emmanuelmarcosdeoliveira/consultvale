@@ -14,9 +14,10 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   color: #fff;
   padding: 20px 40px;
+  transition: 500ms;
 }
 .botao:hover {
-  /* background: var(--bt-2, linear-gradient(180deg, #497397 0%, #161b1f 100%)); */
+  
   background-color: var(--cor-D01);
 }
 .botao1 {
@@ -28,10 +29,11 @@
   height: 70px;
   border-radius: 10px;
   text-align: center;
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5); */
+  
   color: #fff;
   padding: 20px 40px;
   background-color: var(--cor-P09);
+  transition: 500ms;
 }
 .botao1:hover {
    background-color: var(--cor-D01);
