@@ -8,7 +8,6 @@
   scroll-behavior: smooth;
 }
 
-
 body {
   background-color: #f8f8f8;
 }
@@ -36,7 +35,10 @@ html {
 #textoescrevendo {
   font-style: italic;
  color: var(--cor-P10);
+<<<<<<< Updated upstream
  font-family: roboto;
  font-weight: 700;
+=======
+>>>>>>> Stashed changes
   
 }
