@@ -50,8 +50,8 @@
 }
 @media (max-width: 600px) {
   .chamada-bg {
-    background: url(../../../source/img/chamada/chamada2.jpg);
-    width: 100vw;
+     background: url(../../../source/img/chamada/chamada1.jpg);
+    width: 100vw; 
     height: 220px;
     background-size: cover;
     object-fit: cover;
