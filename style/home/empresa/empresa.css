@@ -5,79 +5,149 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  }
-  .empresa-icone img {
+}
+.empresa-icone img {
   width: 120px;
   margin: 20px 40px;
-  }
-    .empresa-descricao {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 90px;
-  }
-  .empresa-logo img {
+}
+.empresa-descricao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+.empresa-logo img {
   max-width: 380px;
   display: block;
+}
+
+@media (max-width: 600px) {
+  .empresa {
+    width: 350px;
+    margin: 0 auto;
+    padding-top: 0px;
+  }
+  .empresa-icone {
+    display: block;
+  }
+  .empresa-icone {
+    justify-content: center;
+    align-self: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  .empresa-logo1 {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  .empresa-logo1 img {
+    width: 84px;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  .empresa h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+  .empresa-descricao {
+    width: 350px;
+    display: block;
+    margin: 0px;
+  }
+  .empresa-logo {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
   }
 
-  @media (max-width: 600px  ) {
-    .empresa {
-      width: 350px;
-      margin: 0 auto;
-      padding-top: 0px;
-    }
-      .empresa-icone {
-      display: block;
-     }
-    .empresa-icone {
-      justify-content: center;
-      align-self: center;
-      margin: 0px;
-      padding: 0px;
-    }
-    .empresa-logo1 {
-      width: 350px;
-      display: flex;
-      justify-content: center;
-      margin: 0px;
-      padding: 0px;
-    }
-    .empresa-logo1 img {
-      width: 84px;
-      padding: 0px;
-      margin-bottom: 20px;
-    }
-    .empresa h2 {
-      font-size: 26px;
-      text-align: center;
-    }
-    .empresa-descricao {
-      width: 350px;
-      display: block;
-      margin: 0px;
-    }
-    .empresa-logo {
-      width: 350px;
-      display: flex;
-      justify-content: center;
-      margin: 0px;
-    }
-
-    .empresa-logo img {
-      width: 200px;
-      height: 180px;
-      margin: 0;
-     }
-    .empresa-descricao p {
-     font-size: 16px;
-     margin: 0px; 
-     }
-     .empresa-paragrafo {
-      width: 365px;
-      display: flex;
-      justify-content: center;
-      margin: 0 auto; 
-      margin-bottom: 40px;
-     }
+  .empresa-logo img {
+    width: 200px;
+    height: 180px;
+    margin: 0;
   }
+  .empresa-descricao p {
+    font-size: 16px;
+    margin: 0px;
+  }
+  .empresa-paragrafo {
+    width: 365px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+}
+
+.servicos {
+  padding-top: 120px;
+}
+
+.servico-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.servico-titulo img {
+  width: 120px;
+}
+.servicos h3 {
+  padding-left: 90px;
+  margin-top: -20px;
+}
+.servicos p {
+  text-align: center;
+  margin-bottom: 80px;
+  padding-left: 180px;
+}
+
+.servicos h4 {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+@media (max-width: 600px) {
+  .servicos {
+    margin: 0 auto;
+    width: 350px;
+    padding-top: 0px;
+  }
+  .servico-titulo {
+    display: flex;
+    width: 370px;
+    height: 80px;
+  }
+  .servicos h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+  .servicos h3 {
+    padding-left: 0px;
+    margin-top: -5px;
+    font-size: 26px;
+  }
+  .servico-titulo img {
+    margin-left: 0px;
+    width: 84px;
+  }
+  .servico-descricao {
+    text-align: center;
+  }
+  .servicos h4 {
+    width: 280px;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .servicos p {
+    width: 350px;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 40px;
+  }
+}
